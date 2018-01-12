@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculadora.Classes
 {
-    class Calculadora
+    class CalculadoraBasica
     {
         /// <summary>
         /// Parâmetro 1 + parâmetro 2
@@ -48,8 +48,8 @@ namespace Calculadora.Classes
         /// <param name="numeroDois">The numero dois.</param>
         /// <returns></returns>
         public double Dividir(double numeroUm, double numeroDois)
-        {
-            return numeroUm / numeroDois;
+        { 
+            return numeroUm / numeroDois;       
         }
     }
 }
