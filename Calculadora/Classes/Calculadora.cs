@@ -16,6 +16,7 @@ namespace Calculadora.Classes
         /// <returns></returns>
         public double Somar(double numeroUm, double numeroDois)
         {
+            // vai somar
             return numeroUm + numeroDois;
         }
 
