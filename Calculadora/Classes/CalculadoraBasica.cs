@@ -49,7 +49,11 @@ namespace Calculadora.Classes
         /// <param name="numeroDois">The numero dois.</param>
         /// <returns></returns>
         public double Dividir(double numeroUm, double numeroDois)
-        { 
+        {
+            if (numeroDois == 0)
+            {
+                throw new Exception("Não dividiras por zero!!!");
+            }
             return numeroUm / numeroDois;       
         }
     }
